@@ -79,6 +79,7 @@ a {
   /*z-index:1 ======>  to make the div go behiend after and before elments  */
   z-index: 1;
   margin: 0 auto 80px;
+  cursor: pointer;
 }
 .main-heading div::before {
   content: "";
@@ -1167,6 +1168,7 @@ top:0; */
   display: block;
   height: 100%;
   position: relative;
+  transition: 1s;
 }
 
 .our-skills .container .skills .skill .data span::before {
@@ -1382,6 +1384,11 @@ top:0; */
   border-color: var(--main-color);
 }
 
+.events .container .info .timer .unit > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .events .container .info span {
   display: block;
 }
